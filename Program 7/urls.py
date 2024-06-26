@@ -28,16 +28,6 @@ from shownameapp.views import myFunc
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("smn/", myFunc),
-    path("vote/<int:age>", votefromhome),
-    path("check/<int:age>", checkif18),
-    path("date/", displaydate),
-    path("datetimeoffset/", displaydateoffset),
-    path("lists/",lists),
-    path("vivalists/",vivalists),
-    path("home/", homepage),
-    path("about/", aboutpage),
-    path("contact/", contactpage),
     path("register/",register),
     path("coursesearch/",course_search)
 ]
